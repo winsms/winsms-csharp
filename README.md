@@ -1,4 +1,4 @@
-# C# library for WinSMS
+# WinSMS - C# Library
 
 - API version: 1.0.0
 - SDK version: 1.0.0
