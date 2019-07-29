@@ -1,4 +1,4 @@
-# winsms.Api.CreditsApi
+# IO.Swagger.Api.CreditsApi
 
 All URIs are relative to *https://www.winsms.co.za/api/rest/v1*
 
@@ -20,9 +20,9 @@ Get the current remaining credit balance for the account.  ***Note*** - The cred
 ```csharp
 using System;
 using System.Diagnostics;
-using winsms.Api;
-using winsms.Client;
-using winsms.Model;
+using IO.Swagger.Api;
+using IO.Swagger.Client;
+using IO.Swagger.Model;
 
 namespace Example
 {
@@ -82,9 +82,9 @@ Transfer credits between accounts. - From Main account to Sub account.  - From S
 ```csharp
 using System;
 using System.Diagnostics;
-using winsms.Api;
-using winsms.Client;
-using winsms.Model;
+using IO.Swagger.Api;
+using IO.Swagger.Client;
+using IO.Swagger.Model;
 
 namespace Example
 {

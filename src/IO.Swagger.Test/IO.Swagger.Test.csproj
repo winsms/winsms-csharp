@@ -81,7 +81,7 @@ Contact: support@winsms.co.za
   <Import Project="$(MsBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
       <ProjectReference Include="..\IO.Swagger\IO.Swagger.csproj">
-          <Project>{CD211555-4FC6-4F01-8D3F-78C3FEDF9C32}</Project>
+          <Project>{2D824F5B-C664-4CC8-9EF7-84948BB7AB16}</Project>
           <Name>IO.Swagger</Name>
       </ProjectReference>
   </ItemGroup>

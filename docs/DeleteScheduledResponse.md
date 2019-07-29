@@ -1,4 +1,4 @@
-# winsms.Model.DeleteScheduledResponse
+# IO.Swagger.Model.DeleteScheduledResponse
 ## Properties
 
 Name | Type | Description | Notes

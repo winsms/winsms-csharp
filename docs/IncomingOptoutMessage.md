@@ -1,4 +1,4 @@
-# winsms.Model.IncomingOptoutMessage
+# IO.Swagger.Model.IncomingOptoutMessage
 ## Properties
 
 Name | Type | Description | Notes

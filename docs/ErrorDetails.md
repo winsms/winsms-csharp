@@ -1,4 +1,4 @@
-# winsms.Model.ErrorDetails
+# IO.Swagger.Model.ErrorDetails
 ## Properties
 
 Name | Type | Description | Notes

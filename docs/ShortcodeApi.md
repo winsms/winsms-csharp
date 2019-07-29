@@ -1,4 +1,4 @@
-# winsms.Api.ShortcodeApi
+# IO.Swagger.Api.ShortcodeApi
 
 All URIs are relative to *https://www.winsms.co.za/api/rest/v1*
 
@@ -19,9 +19,9 @@ Get a list of incoming short/long code messages
 ```csharp
 using System;
 using System.Diagnostics;
-using winsms.Api;
-using winsms.Client;
-using winsms.Model;
+using IO.Swagger.Api;
+using IO.Swagger.Client;
+using IO.Swagger.Model;
 
 namespace Example
 {

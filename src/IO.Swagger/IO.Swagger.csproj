@@ -12,7 +12,7 @@ Contact: support@winsms.co.za
     
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CD211555-4FC6-4F01-8D3F-78C3FEDF9C32}</ProjectGuid>
+    <ProjectGuid>{2D824F5B-C664-4CC8-9EF7-84948BB7AB16}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IO.Swagger</RootNamespace>

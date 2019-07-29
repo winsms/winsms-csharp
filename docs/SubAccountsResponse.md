@@ -1,4 +1,4 @@
-# winsms.Model.SubAccountsResponse
+# IO.Swagger.Model.SubAccountsResponse
 ## Properties
 
 Name | Type | Description | Notes
