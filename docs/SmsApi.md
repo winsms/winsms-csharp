@@ -1,4 +1,4 @@
-# IO.Swagger.Api.SmsApi
+# winsms.Api.SmsApi
 
 All URIs are relative to *https://www.winsms.co.za/api/rest/v1*
 
@@ -24,9 +24,9 @@ Delete a list of previously scheduled SMS messages that have not yet been sent. 
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using winsms.Api;
+using winsms.Client;
+using winsms.Model;
 
 namespace Example
 {
@@ -90,9 +90,9 @@ Get a list of all incoming SMS messages received by the account.  Only the first
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using winsms.Api;
+using winsms.Client;
+using winsms.Model;
 
 namespace Example
 {
@@ -158,9 +158,9 @@ Get a list of all opt-out SMS messages received by the account, as well as all m
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using winsms.Api;
+using winsms.Client;
+using winsms.Model;
 
 namespace Example
 {
@@ -220,9 +220,9 @@ Get a list of all scheduled SMS messages that have not yet been sent.  Only the 
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using winsms.Api;
+using winsms.Client;
+using winsms.Model;
 
 namespace Example
 {
@@ -288,9 +288,9 @@ Submit 1 or more SMS messages to be sent by WinSMS. Maximum 1000 recipients per 
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using winsms.Api;
+using winsms.Client;
+using winsms.Model;
 
 namespace Example
 {
@@ -354,9 +354,9 @@ Get a list of previously submitted SMS message delivery statuses.  Post an array
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using winsms.Api;
+using winsms.Client;
+using winsms.Model;
 
 namespace Example
 {

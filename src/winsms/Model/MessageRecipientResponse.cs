@@ -41,7 +41,7 @@ namespace winsms.Model
         /// <param name="scheduledTime">The date and time that the message was scheduled for delivery to the recipient.  If no ***scheduledTime*** value was specified in the request, or the recipient was not accepted for delivery, this value will be **null**. .</param>
         /// <param name="creditCost">The number of credits deducted from your account for the SMS to this recipient.  The credit cost is based on the destination country of the recipient and the length (number of segments) of the message.  This credit cost will be reimbursed if the message is scheduled and subsequently deleted.  If the recipient is not accepted for delivery, the ***creditCost*** value will be **null**. .</param>
         /// <param name="newCreditBalance">The number of WinSMS credits remaining in your account after processing this recipient. .</param>
-        public MessageRecipientResponse(string clientMessageId = default(string), string mobileNumber = default(string), bool? accepted = default(bool?), string acceptError = default(string), int? apiMessageId = default(int?), int? scheduledTime = default(int?), double? creditCost = default(double?), double? newCreditBalance = default(double?))
+        public MessageRecipientResponse(string clientMessageId = default(string), string mobileNumber = default(string), bool? accepted = default(bool?), string acceptError = default(string), int? apiMessageId = default(int?), string scheduledTime = default(string), double? creditCost = default(double?), double? newCreditBalance = default(double?))
         {
             this.ClientMessageId = clientMessageId;
             this.MobileNumber = mobileNumber;
@@ -93,7 +93,7 @@ namespace winsms.Model
         /// </summary>
         /// <value>The date and time that the message was scheduled for delivery to the recipient.  If no ***scheduledTime*** value was specified in the request, or the recipient was not accepted for delivery, this value will be **null**. </value>
         [DataMember(Name="scheduledTime", EmitDefaultValue=false)]
-        public int? ScheduledTime { get; set; }
+        public string ScheduledTime { get; set; }
 
         /// <summary>
         /// The number of credits deducted from your account for the SMS to this recipient.  The credit cost is based on the destination country of the recipient and the length (number of segments) of the message.  This credit cost will be reimbursed if the message is scheduled and subsequently deleted.  If the recipient is not accepted for delivery, the ***creditCost*** value will be **null**. 

@@ -1,4 +1,4 @@
-# IO.Swagger.Model.MessageRecipientDetails
+# winsms.Model.MessageRecipientDetails
 ## Properties
 
 Name | Type | Description | Notes

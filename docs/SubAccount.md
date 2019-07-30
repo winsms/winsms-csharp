@@ -1,4 +1,4 @@
-# IO.Swagger.Model.SubAccount
+# winsms.Model.SubAccount
 ## Properties
 
 Name | Type | Description | Notes

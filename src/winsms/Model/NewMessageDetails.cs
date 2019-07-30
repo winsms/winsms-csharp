@@ -42,7 +42,7 @@ namespace winsms.Model
         /// <param name="recipients">An array of messageRecipientDetails objects. (required).</param>
         /// <param name="scheduledTime">***Optional*** - The date and time that an SMS should be delivered. If not specified, or is set for a date/time prior to the current date/time, the SMS message will be sent immediately.  If specified, this value should have the format YYYYMMDDHHmm. .</param>
         /// <param name="maxSegments">***Optional*** - The maximum [GSM Encoded segment count](\&quot;https://support.winsms.co.za/rest/GSM\&quot;) that the message is allowed to utilise.  This defaults to 1, allowing for a maximum GSM Encoded message length of 160 characters.  The maximum value is 6, which allows for a GSM Encoded message length of 918 characters.  If you intend to send a message longer than 160 characters, this value should be specified. .</param>
-        public NewMessageDetails(string message = default(string), List<MessageRecipientDetails> recipients = default(List<MessageRecipientDetails>), int? scheduledTime = default(int?), int? maxSegments = default(int?))
+        public NewMessageDetails(string message = default(string), List<MessageRecipientDetails> recipients = default(List<MessageRecipientDetails>), string scheduledTime = default(string), int? maxSegments = default(int?))
         {
             // to ensure "message" is required (not null)
             if (message == null)
@@ -85,7 +85,7 @@ namespace winsms.Model
         /// </summary>
         /// <value>***Optional*** - The date and time that an SMS should be delivered. If not specified, or is set for a date/time prior to the current date/time, the SMS message will be sent immediately.  If specified, this value should have the format YYYYMMDDHHmm. </value>
         [DataMember(Name="scheduledTime", EmitDefaultValue=false)]
-        public int? ScheduledTime { get; set; }
+        public string ScheduledTime { get; set; }
 
         /// <summary>
         /// ***Optional*** - The maximum [GSM Encoded segment count](\&quot;https://support.winsms.co.za/rest/GSM\&quot;) that the message is allowed to utilise.  This defaults to 1, allowing for a maximum GSM Encoded message length of 160 characters.  The maximum value is 6, which allows for a GSM Encoded message length of 918 characters.  If you intend to send a message longer than 160 characters, this value should be specified. 

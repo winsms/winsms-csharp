@@ -1,4 +1,4 @@
-# IO.Swagger.Model.CreditBalanceResponse
+# winsms.Model.CreditBalanceResponse
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# IO.Swagger.Model.DeletedMessageStatus
+# winsms.Model.DeletedMessageStatus
 ## Properties
 
 Name | Type | Description | Notes

@@ -12,7 +12,7 @@ Contact: support@winsms.co.za
     
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{505B4D14-9323-46E3-8632-9F2D75745942}</ProjectGuid>
+    <ProjectGuid>{3751FB1F-DD4D-4C00-96F0-CBAFA03E850C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>winsms</RootNamespace>

@@ -1,4 +1,4 @@
-# IO.Swagger.Model.ShortcodeMessage
+# winsms.Model.ShortcodeMessage
 ## Properties
 
 Name | Type | Description | Notes

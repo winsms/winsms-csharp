@@ -1,4 +1,4 @@
-# IO.Swagger.Model.ScheduledMessageResponse
+# winsms.Model.ScheduledMessageResponse
 ## Properties
 
 Name | Type | Description | Notes

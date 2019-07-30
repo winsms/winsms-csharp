@@ -1,4 +1,4 @@
-# IO.Swagger.Api.SubaccountsApi
+# winsms.Api.SubaccountsApi
 
 All URIs are relative to *https://www.winsms.co.za/api/rest/v1*
 
@@ -19,9 +19,9 @@ Get a list of all the Sub Accounts owned by the Main Account.
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using winsms.Api;
+using winsms.Client;
+using winsms.Model;
 
 namespace Example
 {

@@ -1,4 +1,4 @@
-# IO.Swagger.Model.CreditTransferDetails
+# winsms.Model.CreditTransferDetails
 ## Properties
 
 Name | Type | Description | Notes

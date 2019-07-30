@@ -81,7 +81,7 @@ Contact: support@winsms.co.za
   <Import Project="$(MsBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
       <ProjectReference Include="..\winsms\winsms.csproj">
-          <Project>{505B4D14-9323-46E3-8632-9F2D75745942}</Project>
+          <Project>{3751FB1F-DD4D-4C00-96F0-CBAFA03E850C}</Project>
           <Name>winsms</Name>
       </ProjectReference>
   </ItemGroup>

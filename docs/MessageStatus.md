@@ -1,4 +1,4 @@
-# IO.Swagger.Model.MessageStatus
+# winsms.Model.MessageStatus
 ## Properties
 
 Name | Type | Description | Notes
