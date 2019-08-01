@@ -39,7 +39,7 @@ namespace winsms.Model
         /// <param name="statusErrorCode">If the SMS message was successfully delivered, this value will be blank. If the ***statusDelivered*** value is false, this will contain a string indicating the current status of the SMS message. Possible values- | Value | Description | Type | |- -- -- --|- -- -- -- -- -- --|- -- -- -| | SENT| The message has been sent to the recipient, but no delivery report has been received | Temporary | | NOTFOUND | Either an incorrect MessageID was sent in the request, or the message was sent more than 90 days previously | Permanent | | INQUEUE | Message is queued for sending | Temporary | | SENDINGFAILED | The message was not transmitted, due to e.g. an invalid destination number or insufficient credits | Permanent | | FAILED | The message was sent but could not be delivered to the recipient due to e.g. no such subscriber, subscriber&#39;s phone offline | Permanent | .</param>
         /// <param name="statusTime">The date and time of the last status update for this message, in the format YYYYMMDDHHmm.  If the message was delivered (**statusDelivered &#x3D; true**) then this is a final status time. If the message is still awaiting delivery, this time might change when updates are received. .</param>
         /// <param name="creditCost">The number of credits deducted from your account for the SMS to this recipient.   If delivery to the recipient is unsuccessful, under certain conditions, this may be 0. .</param>
-        public MessageStatus(int? apiMessageId = default(int?), string mobileNumber = default(string), bool? statusDelivered = default(bool?), string statusErrorCode = default(string), int? statusTime = default(int?), double? creditCost = default(double?))
+        public MessageStatus(int? apiMessageId = default(int?), string mobileNumber = default(string), bool? statusDelivered = default(bool?), string statusErrorCode = default(string), string statusTime = default(string), double? creditCost = default(double?))
         {
             this.ApiMessageId = apiMessageId;
             this.MobileNumber = mobileNumber;
@@ -82,7 +82,7 @@ namespace winsms.Model
         /// </summary>
         /// <value>The date and time of the last status update for this message, in the format YYYYMMDDHHmm.  If the message was delivered (**statusDelivered &#x3D; true**) then this is a final status time. If the message is still awaiting delivery, this time might change when updates are received. </value>
         [DataMember(Name="statusTime", EmitDefaultValue=false)]
-        public int? StatusTime { get; set; }
+        public string StatusTime { get; set; }
 
         /// <summary>
         /// The number of credits deducted from your account for the SMS to this recipient.   If delivery to the recipient is unsuccessful, under certain conditions, this may be 0. 

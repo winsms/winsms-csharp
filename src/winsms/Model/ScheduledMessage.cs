@@ -38,7 +38,7 @@ namespace winsms.Model
         /// <param name="submitTime">The date and time the message was originally submitted for scheduled delivery, in the format YYYYMMDDHHmm..</param>
         /// <param name="scheduledSendTime">The date and time the message is scheduled to be delivered to the recipient, in the format YYYYMMDDHHmm..</param>
         /// <param name="creditCost">The number of credits deducted from your account for the SMS to this recipient.  This is the number of credits that will be refunded if you delete this scheduled message. .</param>
-        public ScheduledMessage(int? apiMessageId = default(int?), string mobileNumber = default(string), int? submitTime = default(int?), int? scheduledSendTime = default(int?), double? creditCost = default(double?))
+        public ScheduledMessage(int? apiMessageId = default(int?), string mobileNumber = default(string), string submitTime = default(string), string scheduledSendTime = default(string), double? creditCost = default(double?))
         {
             this.ApiMessageId = apiMessageId;
             this.MobileNumber = mobileNumber;
@@ -66,14 +66,14 @@ namespace winsms.Model
         /// </summary>
         /// <value>The date and time the message was originally submitted for scheduled delivery, in the format YYYYMMDDHHmm.</value>
         [DataMember(Name="submitTime", EmitDefaultValue=false)]
-        public int? SubmitTime { get; set; }
+        public string SubmitTime { get; set; }
 
         /// <summary>
         /// The date and time the message is scheduled to be delivered to the recipient, in the format YYYYMMDDHHmm.
         /// </summary>
         /// <value>The date and time the message is scheduled to be delivered to the recipient, in the format YYYYMMDDHHmm.</value>
         [DataMember(Name="scheduledSendTime", EmitDefaultValue=false)]
-        public int? ScheduledSendTime { get; set; }
+        public string ScheduledSendTime { get; set; }
 
         /// <summary>
         /// The number of credits deducted from your account for the SMS to this recipient.  This is the number of credits that will be refunded if you delete this scheduled message. 
