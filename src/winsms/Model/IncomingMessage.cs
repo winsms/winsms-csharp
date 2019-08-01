@@ -38,7 +38,7 @@ namespace winsms.Model
         /// <param name="receiveTime">The date and time the message was received by WinSMS, in the format YYYYMMDDHHmm. .</param>
         /// <param name="messageText">The text of the incoming SMS message. .</param>
         /// <param name="outgoingApiMessageId">The API message id of the most recent message sent to the mobile number that responded. .</param>
-        public IncomingMessage(decimal? incomingApiMessageId = default(decimal?), string mobileNumber = default(string), int? receiveTime = default(int?), string messageText = default(string), decimal? outgoingApiMessageId = default(decimal?))
+        public IncomingMessage(decimal? incomingApiMessageId = default(decimal?), string mobileNumber = default(string), string receiveTime = default(string), string messageText = default(string), decimal? outgoingApiMessageId = default(decimal?))
         {
             this.IncomingApiMessageId = incomingApiMessageId;
             this.MobileNumber = mobileNumber;
@@ -66,7 +66,7 @@ namespace winsms.Model
         /// </summary>
         /// <value>The date and time the message was received by WinSMS, in the format YYYYMMDDHHmm. </value>
         [DataMember(Name="receiveTime", EmitDefaultValue=false)]
-        public int? ReceiveTime { get; set; }
+        public string ReceiveTime { get; set; }
 
         /// <summary>
         /// The text of the incoming SMS message. 

@@ -38,7 +38,7 @@ namespace winsms.Model
         /// <param name="firstName">The first name of the user that the Sub Account is registered to. .</param>
         /// <param name="surname">The surname of the user that the Sub Account is registered to. .</param>
         /// <param name="creditBalance">The remaining credit balance for the Sub Account. .</param>
-        public SubAccount(int? accountNumber = default(int?), string loginName = default(string), int? firstName = default(int?), string surname = default(string), decimal? creditBalance = default(decimal?))
+        public SubAccount(int? accountNumber = default(int?), string loginName = default(string), string firstName = default(string), string surname = default(string), decimal? creditBalance = default(decimal?))
         {
             this.AccountNumber = accountNumber;
             this.LoginName = loginName;
@@ -66,7 +66,7 @@ namespace winsms.Model
         /// </summary>
         /// <value>The first name of the user that the Sub Account is registered to. </value>
         [DataMember(Name="firstName", EmitDefaultValue=false)]
-        public int? FirstName { get; set; }
+        public string FirstName { get; set; }
 
         /// <summary>
         /// The surname of the user that the Sub Account is registered to. 
