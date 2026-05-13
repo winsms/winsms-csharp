@@ -82,7 +82,7 @@ namespace Example
 <a name="documentation-for-api-endpoints"></a>
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://www.winsms.co.za/api/rest/v1*
+All URIs are relative to *https://api.winsms.co.za/api/rest/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
